@@ -5,3 +5,5 @@ def application(environ, start_response):
             ("Content-Length", str(len(data)))
             ])
     return iter([data])
+
+print "hello world"
